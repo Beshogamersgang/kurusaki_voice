@@ -6,7 +6,7 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 
 
-bot=commands.Bot(command_prefix='a.')
+bot=commands.Bot(command_prefix='>>')
 
 from discord import opus
 OPUS_LIBS = ['libopus-0.x86.dll', 'libopus-0.x64.dll',
@@ -159,4 +159,4 @@ async def leave(ctx):
     songs.clear()
     
 
-bot.run(os.environ['BOT_TOKEN'])
+bot.run(os.environ['NTA0NzE4MDM4MTc2ODkwOTAx.DrpLLw.Vo0TJ9zSp_rW43nHl3ZKYRcw-Y4'])
